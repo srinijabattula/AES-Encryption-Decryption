@@ -5,7 +5,7 @@ This is a simple Python-based AES encryption and decryption utility supporting t
 **Features**
 - AES encryption in 'ECB', 'CBC', and 'GCM' modes
 - Handles 'IV' (Initialization Vector) and 'GCM additional data'
-- Clean CLI usage with `argparse`
+- Clean CLI usage with 'argparse'
 - Works on binary files (e.g., text, images, executables)
 
 **Project Structure**
