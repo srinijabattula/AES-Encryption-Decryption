@@ -10,6 +10,12 @@ This is a simple Python-based AES encryption and decryption utility supporting t
 - Works on binary files (e.g., text, images, executables)
 
 **Project Structure**
+-aes-encrypt.py
+-aes-decrypt.py
+-README.md
+-requiremnents.txt
+-test_aes.py
+-test_files
 
 **Usage**
 
