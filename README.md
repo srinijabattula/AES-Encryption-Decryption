@@ -14,12 +14,15 @@ This is a simple Python-based AES encryption and decryption utility supporting t
 **Usage**
 
 **Encrypt**
+
 -command: python encrypt.py -key data/example_key.txt -input data/sample_plaintext.txt -out data/sample_ciphertext.enc -mode cbc -IV data/example_iv.txt
 
 **Decrypt**
+
 -command: python decrypt.py -key data/example_key.txt -input data/sample_ciphertext.enc -out data/decrypted.txt -mode cbc -IV data/example_iv.txt
 
 **Installation**
+
 -Install the required dependency from 'requirements.txt'
 -command: pip install -r requirements.txt
 
