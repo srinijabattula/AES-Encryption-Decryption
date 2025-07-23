@@ -10,36 +10,44 @@ This is a simple Python-based AES encryption and decryption utility supporting t
 - Works on binary files (e.g., text, images, executables)
 
 **Project Structure**
--aes-encrypt.py
--aes-decrypt.py
--README.md
--requiremnents.txt
--test_aes.py
--test_files
+aes-encrypt.py – AES encryption script
+
+aes-decrypt.py – AES decryption script
+
+README.md – Project documentation
+
+requirements.txt – Python dependencies
+
+test_aes.py – Unit tests for encryption and decryption
+
+test_files
 
 **Usage**
 
 **Encrypt**
 
--command: python encrypt.py -key data/example_key.txt -input data/sample_plaintext.txt -out data/sample_ciphertext.enc -mode cbc -IV data/example_iv.txt
+command: python encrypt.py -key data/example_key.txt -input data/sample_plaintext.txt -out data/sample_ciphertext.enc -mode cbc -IV data/example_iv.txt
 
 **Decrypt**
 
--command: python decrypt.py -key data/example_key.txt -input data/sample_ciphertext.enc -out data/decrypted.txt -mode cbc -IV data/example_iv.txt
+command: python decrypt.py -key data/example_key.txt -input data/sample_ciphertext.enc -out data/decrypted.txt -mode cbc -IV data/example_iv.txt
 
 **Installation**
 
--Install the required dependency from 'requirements.txt'
--command: pip install -r requirements.txt
+Install the required dependency from 'requirements.txt'
+
+command: pip install -r requirements.txt
 
 **Test**
 
--Unit tests can be found: test_encrypt.py, test_decrypt.py
--command: python -m unittest discover test
+Unit tests can be found: test_encrypt.py, test_decrypt.py
+
+command: python -m unittest discover test
 
 **Author**
 
--Srinija Battula
--Cybersecurity and Threat Intelligence
+Srinija Battula
+
+Cybersecurity and Threat Intelligence
 
 
