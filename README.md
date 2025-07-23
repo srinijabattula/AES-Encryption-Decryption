@@ -47,7 +47,6 @@ command: python -m unittest discover test
 **Author**
 
 Srinija Battula
-
-Cybersecurity and Threat Intelligence
+(Cybersecurity and Threat Intelligence)
 
 
