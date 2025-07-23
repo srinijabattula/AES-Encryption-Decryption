@@ -1,0 +1,12 @@
+key.txt:
+00112233445566778899aabbccddeeff
+
+iv.txt:
+aabbccddeeff001122334455
+
+
+aad.txt (for GCM only):
+AdditionalAuthenticatedData
+
+plaintext.txt:
+This is a test plaintext message for AES encryption.
